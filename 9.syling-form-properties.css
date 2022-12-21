@@ -1,0 +1,39 @@
+input[type=text]{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-left: 9px solid #333;
+    background-color: lime;
+    /* color: aliceblue; */
+    margin-bottom: 50px;
+
+}
+
+input[type=text]:focus{
+outline: none;
+border: brown 3px dashed;
+}
+
+textarea{
+    background-color: cadetblue;
+    color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+::placeholder{
+    color: beige;
+}
+select{
+    background-color: orangered;
+    color: aliceblue;
+    padding: 10px;
+}
+
+input[type=submit]{
+    background-color: darkgreen;
+    color: antiquewhite;
+    padding: 7px;
+    border: none;
+}

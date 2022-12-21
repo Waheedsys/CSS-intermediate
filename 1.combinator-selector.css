@@ -1,0 +1,21 @@
+/* desendant selector */
+.sports-section p {
+background-color: lawngreen;
+}
+
+/* child selector */
+.sports-section > p{
+color: blue;
+}
+
+/* Adjacent sibiling */
+section + p{
+  color: red;
+}
+
+/* general sibiling selector*/
+.sports-section ~ p{ 
+  color: brown;
+}
+
+

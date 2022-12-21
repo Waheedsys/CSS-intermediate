@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 2rem;
+    /* background-color: lightcoral; */
+    background-image: linear-gradient(#EECE13 50%, #B210FF );
+
+    background-image: repeating-linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
+}
+
+/* h2{
+    background-color: lightcoral;
+}
+p{
+    background-color: lawngreen;
+} */
+
+

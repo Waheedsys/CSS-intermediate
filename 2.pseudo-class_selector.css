@@ -1,0 +1,67 @@
+/* Link = unvisited */
+/* a:link{
+    text-decoration: none;
+    
+} */
+
+
+/* visited */
+/* a:visited{
+    color:rgb(162, 250, 9) ;
+} */
+
+/* hover */
+/* a:hover{
+    background-color: 	#dbac98;
+    color: 	#e35d6a;
+    padding: 20px;
+    border-radius: 6px;
+} */
+
+/* active */
+/* a:active{
+    color: black;
+} */
+/* CSS + pseudo */
+/* section.main-section:hover{
+    background-color: firebrick;
+} */
+
+/*  */
+/* section h3{
+    display: none;
+}
+section.main-section:hover h3{
+    display:inline-block ;
+} */
+
+/* Firs child selector */
+/* h3:first-child{
+    color: purple;
+    background-color: grey;
+} */
+/* 
+h3:first-child span{
+color: lime;
+}
+h3 span:first-child{
+    color: yellow;
+}  */
+
+main{
+    padding: 15px;
+    transition: all 1s ease-in-out;
+}
+main.main:hover{
+    background-color: teal;
+    color: aliceblue;
+}
+
+/* .section:first-child:hover{
+    background-color: lawngreen;
+    transition: all 0.7s ease-in;
+} */
+
+.section h2:first-child{
+    background-color: lawngreen;
+}

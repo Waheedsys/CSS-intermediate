@@ -1,0 +1,30 @@
+/* atttribute selector */
+
+/* h3[title]{
+    background-color: limegreen;
+
+} */
+
+/* h3[title=heading]{
+    background-color: magenta;
+} */
+
+/* ~ the "swigily" attribute search the given word in all h3 if match applies the color and does not care about other words present before or after  */
+/* h3[title~=heading]{
+    background-color: maroon;
+    color: white;
+} */
+
+
+/* pipe selector only selectes if and only if the given word matchs with the title has to at the begging it can be connected with dash other words*/
+/* h3[title|=heading]{
+    background-color: midnightblue;
+} */
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+/* input:disabled{
+    background-color: lightcoral;
+    color: azure;
+
+}
+input:enabled{
+    background-color: chocolate;
+    color: aliceblue;
+}
+input:checked{
+    height
+: 150px;
+    width: 150px;
+} */
+/* first of type pseudo class */
+/* p:first-of-type{
+    background-color: darkorange;
+} */
+
+/* last of type pseudo class */
+/* p:last-of-type{
+    background-color: fuchsia;
+} */
+
+
+/* last chiild */
+/* p:last-child{
+    background-color: saddlebrown;
+} */
+
+/* pseudo-class-challenge */
+/* p:first-of-type{
+    background-color: brown;
+} */
+
+/* h6:first-of-type{
+    background-color: midnightblue;
+    color: aliceblue;
+} */
+/* h6:last-child{
+    background-color: forestgreen;
+    color: aliceblue;
+} */
+
+
+/* input:hover{
+    background-color: crimson;
+}  */
+
+/* invalid */
+/* input:invalid{
+    background-color: red;
+} */
+
+/* input:focus{
+ background-color: lightcoral; 
+ color: blue;  
+}
+
+input:required{
+    background-color: lawngreen;
+}*/
+
+p{
+    color: violet;
+}
+/* chose not pseudo class */
+
+:not(p){
+    color: sienna;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+h1{
+    background-color: burlywood;
+}
+
+/* 1-unline styling */
+/* 2-ids = 100 */
+/* 3-class, attribute , pseduo classes = 10 */
+/* 4- elements, pesudo element=1 */
+
+section #sub-head{
+    background-color: lightcoral;
+}
+
+h2{
+    background-color: lawngreen;
+}
+
+
+.sub-head{
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+
+h3{
+    background-color: darkblue;
+}
+
+#small-head{
+    background-color: forestgreen;
+}
+
+
+h4{
+    background-color: darkgoldenrod;
+}

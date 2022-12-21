@@ -1,0 +1,34 @@
+/* caret selector - applies color red to h2 if and only if the h2 class starts with heading */
+/* 
+h2[class^=heading]{
+    color: red;
+
+}
+
+/* pipe selector */
+/* h2[class|=heading]
+{
+    background-color: blue;
+} */
+
+/* squiggly selctor is the stand alone */
+/* h2[class~=heading]{
+    color: green;
+}  */
+
+/* dollalar selctor
+ /* h2[class$=two]{
+    color: brown;
+ } */
+
+    /* asterisk */
+    /* h2[class*=head-]
+    {
+        color: yellow;  }
+    */
+ 
+
+   
+
+
+

@@ -1,0 +1,40 @@
+/* reset */
+*,*::before,*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+/* general style */
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+/* hoverable link */
+section{
+    margin: 1rem 0 0 1rem;
+    display: inline-block;
+    position: relative;
+}
+
+/* main style */
+section > a{
+display: inline-block;
+background-color: yellowgreen;
+padding: 2rem;
+color: aliceblue;
+font-size: 2rem;
+}
+
+/* div link */
+div{
+      /* display: none; */
+    position: absolute;
+    background-color: rgb(211, 211, 211)3% 17%;
+    width: 100%;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+}

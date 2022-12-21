@@ -1,0 +1,16 @@
+/* absolute unit */
+h2{
+    /* font-size: 1cm; */
+    /* font-size: 10mm; */
+    /* font-size: 1in; */
+    /* font-size: 100px; */
+    /* font-size: 10pt; */
+    /* font-size: 1.6pc; */
+}
+
+/* relative */
+h2{
+    /* font-size: 2em; */
+    font-size: 2rem;
+
+}

@@ -1,0 +1,15 @@
+section{
+    height: 20rem;
+    background-image: repeating-radial-gradient(red 3%,
+    green 5%,
+    blue 1% ,
+    black 5%);
+    color: aliceblue;
+}
+
+
+
+
+
+
+

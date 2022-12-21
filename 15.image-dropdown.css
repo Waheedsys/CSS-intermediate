@@ -1,0 +1,22 @@
+section{
+    display: inline-block;
+    position: relative;
+}
+
+section > img{
+    height: 10rem;
+    width: 15rem;
+}
+
+div{
+    display: none;
+    position: absolute;
+    box-shadow: 0.2rem 0.2rem 1rem rgb(126, 252, 0)
+}
+section div > img{
+    height: 20rem;
+    width: 30rem;
+}
+section:hover div{
+    display: block;
+}

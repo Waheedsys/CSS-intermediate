@@ -1,0 +1,15 @@
+section{
+    height: 10rem;
+    width: 10rem;
+    background-color: lawngreen;
+    /* border radius */
+    /* border-radius: 0.5rem; */
+    /* top left */
+    border-top-left-radius: 0.5rem;
+    /* to right */
+    border-top-right-radius: 1rem;
+    /* bottom right */
+    border-bottom-right-radius: 0.5rem;
+    /* bottom left */
+    border-bottom-left-radius: 3rem;
+}

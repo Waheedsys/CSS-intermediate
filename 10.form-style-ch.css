@@ -1,0 +1,78 @@
+*::after,::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(6, 79, 189, 0.973);
+    line-height: 1.8px;
+}
+
+form{
+    width: 300px;
+ 
+   border: 40px;
+   padding: 60px;
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: rgba(55, 206, 123, 0.973);
+
+}
+
+input{
+    text-align: center;
+    padding: 11px;
+    border:none;
+    border-bottom: 2px solid lime;
+    color: aliceblue;
+    background-color: rgba(46, 223, 126, 0.973);
+    transition: all 0.35s ease-in-out;
+    margin: 15px 25px 0;
+    outline: none;
+}
+input:hover{
+    background-color: lime;
+    width: 200px;
+    border-radius: 5px;
+}
+select{
+    background-color: rgba(4, 72, 99,0.541);
+    padding:10px ;
+    color: aliceblue;
+    margin: 15px 25px 0;
+   
+
+}
+input[type=submit]{
+    background-color: lime;
+    position: relative;
+    
+   width: 80%;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+    text-align: center;
+    letter-spacing: 2px;
+}
+textarea{
+    background-color: rgb(1, 81, 134);
+    color: aliceblue;
+    margin: 15px 25px 0;
+    border-left:  2px solid rgb(148, 243, 54);
+    border-bottom: rgb(148, 243, 54);
+}
+
+textarea:hover{
+    background-color: lime;
+    width: 300px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: aliceblue;
+}

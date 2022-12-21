@@ -1,0 +1,72 @@
+/* a:hover{
+    background-color: yellow;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+} */
+
+/* 
+p::first-line{
+    color: blue;
+} */
+/* 
+p.para::first-letter{
+    color: red;
+    font-size: 30px;
+}  */
+
+
+/* after pseuo element */
+/* label::after{
+    content:'*';
+}
+
+
+label::before{
+    content: '1- ';
+}
+p::after{
+    content: '(;';
+}
+
+::selection{
+    background-color: chartreuse;
+    color: blue;
+} */
+
+section{
+    width: 30%;
+    height: 20px;
+    text-align: center;
+    background-color: lawngreen;
+    position: relative;
+    padding: 15px;
+    
+}
+
+section::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    border-bottom: 2px solid white;
+    left: 0;
+    top: 50%;
+}
+
+h4{
+    background-color: lawngreen;
+    width: auto;
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+    margin:0;
+}
+
+
+
+
+
+
